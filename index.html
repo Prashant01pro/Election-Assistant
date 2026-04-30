@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Guide Assistant Pro | Interactive Mentor</title>
+    <meta name="description" content="Master the election process with our interactive AI mentor. Guided steps, deep dives, and first-time voter guides.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app-container">
+        <header>
+            <div class="logo-container">
+                <img src="logo.png" alt="Logo" class="logo-img">
+                <div class="logo-text">ELECTION GUIDE PRO</div>
+            </div>
+            <div class="status-indicators">
+                <div class="status-badge" id="mode-display">Mode: <span>Beginner</span></div>
+                <div class="status-badge" id="level-display">Level: <span>Novice</span></div>
+                <div class="status-badge" id="progress-display">Progress: <span>0%</span></div>
+            </div>
+        </header>
+
+        <main id="mentor-zone">
+            <!-- Messages will be injected here -->
+            <div class="message mentor-message">
+                <h1 class="heading-accent">Welcome to Election Guide Assistant Pro!</h1>
+                <p>Hello! I'm your interactive mentor. My mission is to help you understand the election process in a simple, structured, and transparent way.</p>
+                <p>Before we begin our journey, I need to adapt my teaching style to your needs.</p>
+            </div>
+        </main>
+
+        <div id="action-panel">
+            <!-- Buttons will be injected here -->
+        </div>
+
+        <footer id="timeline-container">
+            <div class="timeline-track">
+                <div class="timeline-step" data-label="Announcement" data-index="0"></div>
+                <div class="timeline-step" data-label="Registration" data-index="1"></div>
+                <div class="timeline-step" data-label="Nomination" data-index="2"></div>
+                <div class="timeline-step" data-label="Campaign" data-index="3"></div>
+                <div class="timeline-step" data-label="Silence" data-index="4"></div>
+                <div class="timeline-step" data-label="Voting" data-index="5"></div>
+                <div class="timeline-step" data-label="Security" data-index="6"></div>
+                <div class="timeline-step" data-label="Counting" data-index="7"></div>
+                <div class="timeline-step" data-label="Result" data-index="8"></div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
